@@ -9,5 +9,8 @@ const larsStats = {
 
 const minNum = 0;
 const maxNum = 100;
+let melding = "";
 
-//let gameOver = Object.values(larsStats).includes(minNum);
+let mainInterval;
+const sultBeskjed = "Lars er sulten!"
+const tørstBeskjed = "Lars er tørst!"
